@@ -1,0 +1,20 @@
+export default {
+  color: {
+    black: "#000000",
+    white: "white",
+    textColor: "#525252",
+    bgTheme: "#0F4DA2",
+    borderColor: "#6E768E",
+    labelText: "#333333",
+    boxColor: "#0000001a",
+    lightBorder: "#00000033",
+    // black50: "#282329",
+    // bgColor: "#EDF2FF",
+    // textColor2: "#FAFCFF",
+    // borderColor: "#BDCADB",
+    // bgHeader: "#21204A",
+    // boxShadow: "#0d0f111a",
+    // boxShadow1: "#6692cc14",
+    // btncolor: "#6692CC",
+  },
+};

@@ -1,0 +1,1429 @@
+{
+    "auth": {
+        "business": {
+            "login": {
+                "greetings": {
+                    "heading": "Welcome Back!",
+                    "description": "Welcome to Business Admin Portal! Securely manage your business anytime, anywhere with our intuitive interface and comprehensive tools. Log in now to streamline your operations and unlock your business's full potential!"
+                },
+                "form": {
+                    "heading": "Sign in to your account",
+                    "fields": {
+                        "mobile_number": {
+                            "placeholder": "Enter your mobile number",
+                            "errors": {
+                                "required": "Phone number is required",
+                                "invalid": "Enter valid phone number"
+                            }
+                        },
+                        "email": {
+                            "placeholder": "Enter your email address",
+                            "errors": {
+                                "required": "Email address is required",
+                                "invalid": "Enter valid email address"
+                            }
+                        },
+                        "password": {
+                            "placeholder": "Enter your password",
+                            "errors": {
+                                "required": "Password is required",
+                                "invalid": "Enter valid password",
+                                "minLength": "Password is too short - should be at least 8 characters",
+                                "maxLength": "Password is too long - should be at most 16 characters",
+                                "regex": "Password must contain alphabets, numbers, and special characters"
+                            }
+                        }
+                    }
+                },
+                "links": {
+                    "forgotPassword": "Forgot Password ?",
+                    "registerHelper": "Don’t have an account ?",
+                    "register": "Register here"
+                },
+                "button": {
+                    "login": "Log In",
+                    "loggingIn": "Logging in..."
+                },
+                "confirmation": {
+                    "title": "Sign out",
+                    "description": "Are you sure you want to sign out?"
+                }
+            },
+            "register": {
+                "greetings": {
+                    "heading": "Welcome to JerTap",
+                    "description": "Join JerTap today! Register to access exclusive benefits and streamline your experience. Sign up now to unlock powerful tools and resources tailored to your needs. Let's get started on your journey to success!"
+                },
+                "form": {
+                    "heading": "Create Your Account",
+                    "fields": {
+                        "mobile_number": {
+                            "placeholder": "Enter your mobile number",
+                            "errors": {
+                                "required": "Phone number is required",
+                                "invalid": "Enter valid phone number"
+                            }
+                        },
+                        "email": {
+                            "placeholder": "Enter your email address",
+                            "errors": {
+                                "required": "Email address is required",
+                                "invalid": "Enter valid email address"
+                            }
+                        },
+                        "password": {
+                            "placeholder": "Enter your password",
+                            "errors": {
+                                "required": "Password is required",
+                                "invalid": "Enter valid password",
+                                "minLength": "Password is too short - should be at least 8 characters",
+                                "maxLength": "Password is too long - should be at most 16 characters",
+                                "regex": "Password must contain alphabets, numbers, and special characters"
+                            }
+                        },
+                        "username": {
+                            "placeholder": "Enter your user name",
+                            "errors": {
+                                "required": "Username is required",
+                                "invalid": "Enter valid username",
+                                "minLength": "Username is too short",
+                                "maxLength": "Username is too long - should be at most 16 characters",
+                                "regex": "Username must start with a letter, and only contain letters and numbers"
+                            }
+                        },
+                        "isAgree": {
+                            "placeholder1": "I agree to the",
+                            "placeholder2": "Terms and Conditions",
+                            "errors": {
+                                "required": "You must accept the terms and conditions"
+                            }
+                        }
+                    }
+                },
+                "button": {
+                    "register": "Register",
+                    "registering": "Registering..."
+                },
+                "links": {
+                    "loginHelper": "Already have an account?",
+                    "login": "Go to Login"
+                }
+            },
+            "verify": {
+                "form": {
+                    "heading": "Verify Your Account",
+                    "fields": {
+                        "code": {
+                            "placeholder": "Enter code",
+                            "errors": {
+                                "required": "Code is required",
+                                "invalid": "Enter valid code",
+                                "minLength": "Code must be 6 characters",
+                                "maxLength": "Code must be 6 characters",
+                                "regex": "Code must be a number"
+                            }
+                        }
+                    }
+                },
+                "button": {
+                    "resend": "Resend",
+                    "verify": "Verify",
+                    "verifying": "Verifying..."
+                }
+            }
+        }
+    },
+    "dashboard": {
+        "business": {
+            "basic_detail": {
+                "greetings": {
+                    "heading": "Basic Detail",
+                    "description": "Register your new business easily with streamlined processes and expert assistance, ensuring compliance and a smooth start to your entrepreneurial journey."
+                },
+                "form": {
+                    "fields": {
+                        "name": {
+                            "placeholder": "Enter your business name",
+                            "errors": {
+                                "required": "Business Name is required",
+                                "invalid": "Enter valid phone name",
+                                "minLength": "Name is too short - should be at least 1 characters",
+                                "maxLength": "Name is too long - should be at most 100 characters",
+                                "regex": "Username must start with a letter, and only contain letters and numbers"
+                            }
+                        },
+                        "phone_number": {
+                            "placeholder": "Enter your mobile number",
+                            "errors": {
+                                "required": "Phone number is required",
+                                "invalid": "Enter valid phone number"
+                            }
+                        },
+                        "phone_number_2": {
+                            "placeholder": "Secondary mobile number (Optional)",
+                            "errors": {
+                                "invalid": "Enter valid secondary phone number"
+                            }
+                        },
+                        "business_email": {
+                            "placeholder": "Enter your business email (Optional)",
+                            "errors": {
+                                "invalid": "Enter valid email address"
+                            }
+                        },
+                        "type": {
+                            "placeholder": "Select your business type",
+                            "errors": {
+                                "required": "Business type is required"
+                            }
+                        },
+                        "year_of_established": {
+                            "placeholder": "Select established year",
+                            "errors": {
+                                "required": "Year is required"
+                            }
+                        }
+                    }
+                },
+                "button": {
+                    "next": "Next"
+                }
+            },
+            "address_detail": {
+                "greetings": {
+                    "heading": "Address Detail",
+                    "description": "Register your new business hassle-free with our efficient services, ensuring compliance and peace of mind. Enjoy expert guidance and timely processing, setting you on the path to success swiftly."
+                },
+                "form": {
+                    "fields": {
+                        "address": {
+                            "placeholder": "Enter your business address",
+                            "errors": {
+                                "required": "Business address is required",
+                                "invalid": "Enter valid address",
+                                "minLength": "address is too short - should be at least 1 characters",
+                                "maxLength": "address is too long - should be at most 1000 characters",
+                                "regex": "address must start with a letter, and only contain letters and numbers"
+                            }
+                        },
+                        "address_ru": {
+                            "placeholder": "Enter your business address (In Russian)",
+                            "errors": {
+                                "required": "Business address is required",
+                                "invalid": "Enter valid address",
+                                "minLength": "address is too short - should be at least 1 characters",
+                                "maxLength": "address is too long - should be at most 1000 characters",
+                                "regex": "address must start with a letter, and only contain letters and numbers"
+                            }
+                        },
+                        "location": {
+                            "placeholder": "Enter your business location",
+                            "errors": {
+                                "required": "Business location is required",
+                                "invalid": "Enter valid location",
+                                "minLength": "location is too short - should be at least 1 characters",
+                                "maxLength": "location is too long - should be at most 100 characters",
+                                "regex": "location must start with a letter, and only contain letters and numbers"
+                            }
+                        },
+                        "city": {
+                            "placeholder": "Enter your business city",
+                            "errors": {
+                                "required": "City is required",
+                                "invalid": "Enter valid city",
+                                "minLength": "city is too short - should be at least 1 characters",
+                                "maxLength": "city is too long - should be at most 100 characters",
+                                "regex": "city must start with a letter, and only contain letters and numbers"
+                            }
+                        },
+                        "state": {
+                            "placeholder": "Enter your business state",
+                            "errors": {
+                                "required": "State is required",
+                                "invalid": "Enter valid state",
+                                "minLength": "state is too short - should be at least 1 characters",
+                                "maxLength": "state is too long - should be at most 100 characters",
+                                "regex": "state must start with a letter, and only contain letters and numbers"
+                            }
+                        },
+                        "zipcode": {
+                            "placeholder": "Enter your business zip code",
+                            "errors": {
+                                "required": "zipcode is required",
+                                "invalid": "Enter valid zipcode",
+
+                                "regex": "Zip code must be a number"
+                            }
+                        },
+                        "locationConfig": {
+                            "placeholder": "Select your business type",
+                            "errors": {
+                                "required": "Please select location"
+                            }
+                        }
+                    }
+                },
+                "button": {
+                    "next": "Next"
+                }
+            },
+            "services_and_amenities": {
+                "greetings": {
+                    "heading": "Services and Amenities",
+                    "description": "Our new business offers a range of services including expert consulting and innovative solutions, coupled with top-notch amenities such as modern facilities and personalized customer care, ensuring an unparalleled experience for our clients."
+                },
+                "form": {
+                    "fields": {
+                        "business_description": {
+                            "placeholder": "Business Description",
+                            "errors": {
+                                "required": "Business description is required",
+                                "invalid": "Enter valid business description",
+                                "minLength": "address is too short - should be at least 5 characters",
+                                "maxLength": "address is too long - should be at most 1000 characters",
+                                "regex": "Business description must contain at least one letter"
+                            }
+                        },
+                        "cuisines": {
+                            "placeholder": "Select Cuisine",
+                            "errors": {
+                                "required": "Cuisines is required",
+                                "invalid": "Enter valid Cuisines",
+                                "minLength": "Cuisines is too short - should be at least 1 characters",
+                                "maxLength": "Cuisines is too long - should be at most 100 characters",
+                                "regex": "Cuisines must contain at least one letter"
+                            }
+                        },
+                        "known_for": {
+                            "placeholder": "Known for",
+                            "errors": {
+                                "required": "Known for details is required",
+                                "invalid": "Enter valid known for details",
+                                "minLength": "Known for details is too short - should be at least 2 characters",
+                                "maxLength": "Known for details is too long - should be at most 1000 characters",
+                                "regex": "must contain at least one letter and only allow letters and numbers"
+                            }
+                        },
+                        "must_order": {
+                            "placeholder": "Must Order",
+                            "errors": {
+                                "required": "Must order item is required",
+                                "invalid": "Enter valid must order item",
+                                "minLength": "Must order item is too short - should be at least 1 characters",
+                                "maxLength": "Must order item is too long - should be at most 100 characters",
+                                "regex": "must contain at least one letter and only allow letters and numbers"
+                            }
+                        },
+                        "business_website": {
+                            "placeholder": "Business Website (Optional)",
+                            "errors": {
+                                "invalid": "Enter valid website"
+                            }
+                        },
+                        "business_instagram": {
+                            "placeholder": "Business Instagram Profile (Optional)",
+                            "errors": {
+                                "invalid": "Enter valid instagram profile"
+                            }
+                        }
+                    }
+                },
+                "button": {
+                    "add": "Add"
+                }
+            },
+            "claim": {
+                "greetings": {
+                    "heading": "Restaurant List"
+                },
+                "form": {
+                    "fields": {
+                        "search": {
+                            "placeholder": "Search business name, city, address..",
+                            "errors": {}
+                        }
+                    }
+                },
+                "button": {
+                    "add_new": "Add New",
+                    "back_to_list": "Back to List"
+                }
+            },
+            "claim_item": {
+                "button": {
+                    "submitting": "Submitting...",
+                    "claim": "Claim"
+                }
+            },
+            "list": {
+                "greetings": {
+                    "heading_1": "Select your restaurant / branch",
+                    "heading_2": "No active/approved restaurant found",
+                    "description": "You haven't registered any restaurants or branches yet; if registered, please await approval as they might be under review."
+                },
+                "button": {
+                    "add_branch": "Add Branch",
+                    "refresh": "Refresh"
+                }
+            },
+            "restaurant_card": {
+                "card": {
+                    "address": "Address",
+                    "city": "City",
+                    "zip_code": " Zip code"
+                },
+                "button": {
+                    "under_review": "Under Review"
+                }
+            },
+            "dashboard": {
+                "greetings": {
+                    "heading": "Business Dashboard"
+                },
+                "links": {
+                    "switch_business": "Switch Business"
+                },
+                "cards": {
+                    "category_count": {
+                        "heading": "Add Category",
+                        "name": "Category Count",
+                        "form": {
+                            "fields": {
+                                "category": {
+                                    "label": "Select Category",
+                                    "errors": {
+                                        "required": "Please select category"
+                                    }
+                                }
+                            },
+                            "button": {
+                                "cancel": "Cancel",
+                                "add": "Add"
+                            }
+                        }
+                    },
+                    "menu_item_count": {
+                        "name": "Menu Item Count",
+                        "form": {
+                            "fields": {
+                                "Item_name": {
+                                    "label": "Name",
+                                    "placeholder": "Enter name",
+                                    "errors": {
+                                        "required": "Menu name is required",
+                                        "invalid": "Enter valid menu name",
+                                        "regex": "At least one letter is required in the Menu name."
+                                    }
+                                },
+                                "cover_image": {
+                                    "label": "Upload Cover Image",
+                                    "errors": {
+                                        "test_isExist": "Please select a cover image",
+                                        "test_fileSize": "Cover image size is too large",
+                                        "test_fileType": "Invalid cover image"
+                                    }
+                                },
+                                "menu_type": {
+                                    "label": "Menu Type",
+                                    "select": "Select Menu Type",
+                                    "errors": {
+                                        "required": "Menu type is required"
+                                    }
+                                },
+                                "price": {
+                                    "label": "Price",
+                                    "placeholder": "Enter price",
+                                    "errors": {
+                                        "required": "Price is required",
+                                        "invalid": "Enter valid Price",
+                                        "regex": "Price must contain only numbers"
+                                    }
+                                },
+                                "is_veg": {
+                                    "label": "Is it Veg?",
+                                    "errors": {
+                                        "bool_true": "true",
+                                        "bool_false": "false"
+                                    }
+                                },
+                                "description": {
+                                    "label": "Description",
+                                    "placeholder": "description",
+                                    "errors": {
+                                        "required": "Description is required",
+                                        "invalid": "Enter valid description",
+                                        "regex": "At least one letter is required in the Description."
+                                    }
+                                },
+                                "ingredients": {
+                                    "label": "Ingredient",
+                                    "placeholder": "Enter ingredient",
+                                    "errors": {
+                                        "required": "Ingredient is required",
+                                        "invalid": "Enter valid Ingredient",
+                                        "regex": "At least one letter is required in the Ingredient."
+                                    },
+                                    "links": {
+                                        "add": "Add Ingredient",
+                                        "remove": "Remove"
+                                    }
+                                },
+                                "sub_category": {
+                                    "label": "Sub Category",
+                                    "errors": {
+                                        "required": "Sub category is required"
+                                    }
+                                }
+                            },
+                            "button": {
+                                "cancel": "Cancel",
+                                "isSubmitting": "Submitting...",
+                                "add": "Add"
+                            }
+                        }
+                    },
+                    "graph": {
+                        "heading": "Restaurant Rating & Reviews",
+                        "business_status": {
+                            "label_open": "Open",
+                            "label_close": "Close"
+                        }
+                    }
+                }
+            },
+            "sidebar": {
+                "menuTitle": "MAIN MENU",
+                "menus": {
+                    "dashboard": "Dashboard",
+                    "listings": "Listings",
+                    "userReviews": "User Reviews",
+                    "collaboration": "Collaboration",
+                    "qapage": "Q & A Page",
+                    "settings": "Settings",
+                    "profile": "Profile",
+                    "businessProfile": "Business Profile",
+                    "promotions": "Promotions",
+                    "events": "Events",
+                    "advertisement": "Advertisement"
+                }
+            },
+            "header": {
+                "notification": {
+                    "title": "Notification",
+                    "unread": "Unread",
+                    "emptyMessage": "No Notifications Found",
+                    "button": {
+                        "viewLess": "View Less",
+                        "viewMore": "View More"
+                    }
+                },
+                "account": {
+                    "menu": {
+                        "profile": "Profile",
+                        "signOut": "Sign Out"
+                    }
+                }
+            },
+            "listing": {
+                "greetings": {
+                    "heading": "Menu Item"
+                },
+                "links": {
+                    "add": "+ Add Item"
+                },
+                "listing_tools": {
+                    "greetings": {
+                        "heading": "Listing Details"
+                    },
+                    "button": {
+                        "update": "Upload Menu"
+                    },
+                    "upload_menu": {
+                        "greetings": {
+                            "heading": "Upload Menu"
+                        },
+                        "button": {
+                            "download": "DownLoad CSV Format",
+                            "cancel": "Cancel",
+                            "isSubmitting": "Upload"
+                        },
+                        "fields": {
+                            "files": {
+                                "label ": "CSV File",
+                                "errors": {
+                                    "test_isExist": "Please select a cover image",
+                                    "test_fileSize": "Cover image size is too large",
+                                    "test_fileType": "Please upload valid file"
+                                }
+                            }
+                        }
+                    },
+                    "list": {
+                        "heading": {
+                            "srNo": "Sr.",
+                            "name": "Name",
+                            "price": "Price",
+                            "description": "Description",
+                            "isVeg": "Is Veg?",
+                            "coverImage": "Cover Photo",
+                            "action": "Action",
+                            "menuType": "Menu Type"
+                        }
+                    }
+                },
+                "confirmation": {
+                    "title": "Delete Confirmation",
+                    "description": "Are you sure you want to delete this menu?"
+                }
+            },
+            "promotions": {
+                "heading": "Promotions & Offers",
+                "list": {
+                    "heading": "List",
+                    "search": "Search..",
+                    "headings": {
+                        "srNo": "Sr.",
+                        "title": "Title",
+                        "offer_type": "Offer Type",
+                        "discount": "Discount",
+                        "is_active": "Is Active?",
+                        "apply_on_everyday": "Apply on everyday?",
+                        "action": "Action",
+                        "created_at": "Created At"
+                    }
+                },
+                "form": {
+                    "add": {
+                        "heading": "Create Promotion/Offer"
+                    },
+                    "update": {
+                        "heading": "Update Promotion/Offer"
+                    },
+                    "fields": {
+                        "title": {
+                            "label": "Title",
+                            "placeholder": "Enter title here",
+                            "errors": {
+                                "required": "Title is required",
+                                "invalid": "Enter valid title",
+                                "regex": "At least one letter is required in the title. Only letters, numbers, and special characters are allowed."
+                            }
+                        },
+                        "image": {
+                            "label": "Upload Image",
+                            "errors": {
+                                "test_isExist": "Please select a image",
+                                "test_fileSize": "Image size is too large",
+                                "test_fileType": "Invalid image"
+                            }
+                        },
+                        "term_and_condition": {
+                            "label": "Terms & Conditions",
+                            "placeholder": "Enter terms and conditions",
+                            "errors": {
+                                "required": "Terms and conditions is required",
+                                "invalid": "Enter valid terms and conditions",
+                                "regex": "At least one letter is required in the terms and conditions. Only letters, numbers, and special characters are allowed."
+                            }
+                        },
+                        "apply_on_everyday": {
+                            "label": "Apply on Every Day?"
+                        },
+                        "days": {
+                            "label": "Days",
+                            "select": "Select Day",
+                            "button": {
+                                "add": "Add Day",
+                                "remove": "Remove"
+                            },
+                            "errors": {
+                                "required": "Day is required"
+                            }
+                        },
+                        "offer_type": {
+                            "label": "Offer Type",
+                            "select": "Select Offer Type",
+                            "errors": {
+                                "required": "Offer type is required"
+                            }
+                        },
+                        "discount": {
+                            "label": "Discount",
+                            "placeholder": "Enter discount",
+                            "errors": {
+                                "required": "Discount is required",
+                                "invalid": "Enter valid discount",
+                                "regex": "Discount must be a number"
+                            }
+                        },
+                        "is_active": {
+                            "label": "Is Active?"
+                        },
+                        "items": {
+                            "label": "Items",
+                            "select": "Select Menu Item",
+                            "button": {
+                                "add": "Add Item",
+                                "remove": "Remove"
+                            },
+                            "errors": {
+                                "required": "Menu item is required"
+                            }
+                        },
+                        "offer_start_time": {
+                            "label": "Offer Start Time",
+                            "errors": {
+                                "required": "Offer start time is required"
+                            }
+                        },
+                        "offer_end_time": {
+                            "label": "Offer End Time",
+                            "errors": {
+                                "required": "Offer end time is required"
+                            }
+                        }
+                    }
+                },
+                "confirmation": {
+                    "title": "Delete Confirmation",
+                    "description": "Are you sure you want to delete this promotion?"
+                }
+            },
+            "events": {
+                "heading": "Events",
+                "buttons": {
+                    "add": "Add Event"
+                }
+            },
+            "user_review": {
+                "greetings": {
+                    "heading": "User Reviews"
+                },
+                "review_list": {
+                    "greetings": {
+                        "heading": "User Generated Review & Rating",
+                        "null_review_heading": "No Reviews/Ratings Found"
+                    }
+                },
+                "update_review": {
+                    "form": {
+                        "fields": {
+                            "replay": {
+                                "label": "Start typing to reply............",
+                                "errors": {
+                                    "required": "Replay is required",
+                                    "invalid": "Enter valid replay text"
+                                }
+                            }
+                        },
+                        "button": {
+                            "isSubmitting": "Submitting...",
+                            "replay": "Replay",
+                            "cancel": "Cancel"
+                        }
+                    }
+                }
+            },
+            "collaborations": {
+                "greetings": {
+                    "heading": "Promotional Events & Activities",
+                    "heading_1": "Collaborate with Platform",
+                    "heading_2": "No Collaborators Found"
+                },
+                "serch_input": "Search Collaborator..."
+            },
+            "qapage": {
+                "greetings": {
+                    "heading": "Q & A"
+                },
+                "button": {
+                    "client_queries": "Client Queries"
+                },
+                "qapage": {
+                    "greetings": {
+                        "heading": "Q & A"
+                    },
+                    "button": {
+                        "client_queries": "Client Queries"
+                    },
+                    "qaform": {
+                        "fields": {
+                            "question": {
+                                "placeholder": "Question",
+                                "errors": {
+                                    "required": "Question is required",
+                                    "invalid": "Enter valid Question",
+                                    "regex": "At least one letter is required in the question. Only letters, numbers, and special characters are allowed."
+                                }
+                            },
+                            "answer": {
+                                "placeholder": "Answer",
+                                "errors": {
+                                    "required": "Answer is required",
+                                    "invalid": "Enter valid Answer",
+                                    "regex": "At least one letter is required in the Answer. Only letters, numbers, and special characters are allowed."
+                                }
+                            }
+                        },
+                        "button": {
+                            "add": "+"
+                        }
+                    },
+                    "client_queries": {
+                        "greetings": {
+                            "heading": "Client Queries",
+                            "table_heading": "Listed Queries",
+                            "no_queries": "No Queries Found"
+                        }
+                    },
+                    "client_querie_items": {
+                        "button": {
+                            "reply": "Reply"
+                        }
+                    },
+                    "answered_queries": {
+                        "greetings": {
+                            "heading": "Answered Queries"
+                        },
+                        "fields": {
+                            "answer": {
+                                "placeholder": "Start typing to answer............",
+                                "errors": {
+                                    "required": "Answer is required",
+                                    "invalid": "Enter valid Answer",
+                                    "minLength": "Answer is too short - should be at least 2 characters",
+                                    "maxLength": "Answer is too long - should be at most 1000 characters",
+                                    "regex": "Answer must contain characters"
+                                }
+                            }
+                        },
+                        "button": {
+                            "isSubmitting": "Answering...",
+                            "answer": "Answer"
+                        }
+                    }
+                },
+                "confirmation": {
+                    "title": "Delete Confirmation",
+                    "description": "Are you sure you want to delete this question?"
+                }
+            },
+            "settings": {
+                "profile": {
+                    "pageTitle": "Profile",
+                    "tabs": {
+                        "userDetails": {
+                            "label": "User Details",
+                            "form": {
+                                "title": "Basic Details",
+                                "fields": {
+                                    "profileImage": {
+                                        "label": "Profile Picture",
+                                        "errors": {
+                                            "required": "Please select a profile image",
+                                            "size": "Profile image size is too large",
+                                            "type": "Invalid profile image"
+                                        }
+                                    },
+                                    "first_name": {
+                                        "label": "First Name",
+                                        "errors": {
+                                            "required": "First name is required",
+                                            "invalid": "Enter valid first name",
+                                            "minLength": "First name is too short",
+                                            "maxLength": "First name is too long - should be at most 50 characters",
+                                            "regex": "First name must contain at least one letter"
+                                        }
+                                    },
+                                    "last_name": {
+                                        "label": "Last Name",
+                                        "errors": {
+                                            "required": "Last name is required",
+                                            "invalid": "Enter valid last name",
+                                            "minLength": "Last name is too short",
+                                            "maxLength": "Last name is too long - should be at most 50 characters",
+                                            "regex": "Last name must contain at least one letter"
+                                        }
+                                    },
+                                    "date_of_birth": {
+                                        "label": "Date of Birth"
+                                    },
+                                    "email": {
+                                        "label": "Email Address"
+                                    },
+                                    "role": {
+                                        "label": "Role"
+                                    },
+                                    "mobile_number": {
+                                        "label": "Contact Number"
+                                    }
+                                },
+                                "button": {
+                                    "save": "Save Changes",
+                                    "saving": "Updating...",
+                                    "cancel": "Cancel"
+                                }
+                            }
+                        }
+                    }
+                },
+                "businessProfile": {
+                    "pageTitle": "Business Profile",
+                    "tabs": {
+                        "basicDetails": {
+                            "label": "Basic Details",
+                            "form": {
+                                "image": {
+                                    "title": "Image Gallery"
+                                },
+                                "detail": {
+                                    "title": "Basic Details",
+                                    "fields": {
+                                        "name": {
+                                            "label": "Business Name",
+                                            "hint": "Name updates will appear, once admin approves the change request.",
+                                            "errors": {
+                                                "required": "Restaurant name is required",
+                                                "invalid": "Enter valid restaurant name",
+                                                "minLength": "Restaurant name is too short",
+                                                "maxLength": "Restaurant name is too long - should be at most 100 characters",
+                                                "regex": "Restaurant name must contain at least one letter"
+                                            }
+                                        },
+                                        "profileImage": {
+                                            "label": "Profile Picture",
+                                            "errors": {
+                                                "required": "Please select a profile image",
+                                                "size": "Profile image size is too large",
+                                                "type": "Invalid profile image"
+                                            }
+                                        },
+                                        "contact_number": {
+                                            "label": "Contact number",
+                                            "errors": {
+                                                "invalid": "Enter valid phone number",
+                                                "required": "Phone number is required",
+                                                "minLength": "Phone number is too short",
+                                                "maxLength": "Phone number is too long",
+                                                "regex": "Enter valid phone number"
+                                            }
+                                        },
+                                        "phone_number_2": {
+                                            "label": "Secondary Phone Number (Optional)",
+                                            "errors": {
+                                                "invalid": "Enter valid phone number",
+                                                "required": "Phone number is required",
+                                                "minLength": "Phone number is too short",
+                                                "maxLength": "Phone number is too long",
+                                                "regex": "Enter valid phone number"
+                                            }
+                                        },
+                                        "business_whatsapp": {
+                                            "label": "Business Whatsapp Number",
+                                            "errors": {
+                                                "invalid": "Enter valid whatsapp number",
+                                                "required": "Whatsapp number is required",
+                                                "minLength": "Whatsapp number is too short",
+                                                "maxLength": "Whatsapp number is too long",
+                                                "regex": "Enter valid whatsapp number"
+                                            }
+                                        },
+                                        "business_instagram": {
+                                            "label": "Business Instagram Handle",
+                                            "errors": {
+                                                "invalid": "Enter valid instagram profile"
+                                            }
+                                        },
+                                        "business_website": {
+                                            "label": "Business Website",
+                                            "errors": {
+                                                "invalid": "Enter valid website"
+                                            }
+                                        },
+                                        "average_bill": {
+                                            "label": "Average Bill",
+                                            "errors": {
+                                                "invalid": "Enter valid bill amount"
+                                            }
+                                        },
+                                        "business_capacity": {
+                                            "label": "Business Capacity",
+                                            "errors": {
+                                                "invalid": "Enter valid business capacity"
+                                            }
+                                        },
+                                        "known_for": {
+                                            "label": "Known For",
+                                            "hint": "You may describe the factors that make your restaurant well-known or renowned for.",
+                                            "errors": {
+                                                "invalid": "Enter valid known for",
+                                                "required": "Known for is required",
+                                                "minLength": "Known for is too short",
+                                                "maxLength": "Known for is too long - should be at most 100 characters",
+                                                "regex": "Known for must contain at least one letter"
+                                            }
+                                        },
+                                        "must_order": {
+                                            "label": "Must Order",
+                                            "hint": "You could feature the best or most-selling dishes from your restaurant.",
+                                            "errors": {
+                                                "invalid": "Enter valid must order",
+                                                "required": "Must order is required",
+                                                "minLength": "Must order is too short",
+                                                "maxLength": "Must order is too long - should be at most 100 characters",
+                                                "regex": "Must order must contain at least one letter"
+                                            }
+                                        },
+                                        "type": {
+                                            "label": "Business Type",
+                                            "select": "Select your business type",
+                                            "errors": {
+                                                "required": "Business type is required"
+                                            }
+                                        },
+                                        "cuisines": {
+                                            "label": "Cuisine",
+                                            "select": "Select Cuisine",
+                                            "errors": {
+                                                "invalid": "Enter valid cuisines",
+                                                "required": "Cuisines is required"
+                                            }
+                                        },
+                                        "year_of_established": {
+                                            "label": "Year of established",
+                                            "select": "Select established year",
+                                            "errors": {
+                                                "required": "Year is required"
+                                            }
+                                        },
+                                        "business_description": {
+                                            "label": "Business Description",
+                                            "errors": {
+                                                "required": "Business description is required",
+                                                "invalid": "Enter valid business description",
+                                                "minLength": "Business description is too short - should be at least 5 characters",
+                                                "maxLength": "Business description is too long - should be at most 10000 characters",
+                                                "regex": "Business description must contain at least one letter"
+                                            }
+                                        },
+                                        "business_email": {
+                                            "label": "Business Email",
+                                            "errors": {
+                                                "invalid": "Enter valid email address"
+                                            }
+                                        }
+                                    },
+                                    "button": {
+                                        "updating": "Updating...",
+                                        "save": "Save Changes",
+                                        "update": "Update",
+                                        "cancel": "Cancel"
+                                    }
+                                }
+                            },
+                            "confirmation": {
+                                "title": "Delete Image Confirmation",
+                                "description": "Are you sure you want to delete this image?"
+                            }
+                        },
+                        "amenitiesServices": {
+                            "label": "Amenities & Services",
+                            "form": {
+                                "title": "Select Amenities",
+                                "fields": {
+                                    "service": {
+                                        "select": "Select Amenities",
+                                        "errors": {
+                                            "required": "Please select service"
+                                        }
+                                    }
+                                },
+                                "button": {
+                                    "add": "+ Add"
+                                }
+                            },
+                            "list": {
+                                "heading": {
+                                    "amenities": "List of Amenities",
+                                    "action": "Action"
+                                },
+                                "button": {
+                                    "remove": "Remove"
+                                },
+                                "emptyAmenities": "Amenities Not Found",
+                                "confirmation": {
+                                    "title": "Delete Confirmation",
+                                    "description": "Are you sure you want to delete this amenities?"
+                                }
+                            }
+                        },
+                        "addressDetail": {
+                            "label": "Address Detail",
+                            "form": {
+                                "fields": {
+                                    "address": {
+                                        "label": "Business Address",
+                                        "placeholder": "Enter your business address",
+                                        "errors": {
+                                            "invalid": "Enter valid address",
+                                            "required": "Address is required",
+                                            "minLength": "Address is too short",
+                                            "maxLength": "Address is too long - should be at most 100 characters",
+                                            "regex": "Address must contain at least one letter"
+                                        }
+                                    },
+                                    "location": {
+                                        "label": "Location",
+                                        "placeholder": "Enter your business location",
+                                        "errors": {
+                                            "invalid": "Enter valid location",
+                                            "required": "Location is required",
+                                            "minLength": "Location is too short",
+                                            "maxLength": "Location is too long - should be at most 100 characters",
+                                            "regex": "Location must contain at least one letter"
+                                        }
+                                    },
+                                    "city": {
+                                        "label": "City",
+                                        "placeholder": "Enter your business city",
+                                        "errors": {
+                                            "invalid": "Enter valid city",
+                                            "required": "City is required",
+                                            "minLength": "City is too short",
+                                            "maxLength": "City is too long - should be at most 100 characters",
+                                            "regex": "City must contain at least one letter"
+                                        }
+                                    },
+                                    "state": {
+                                        "label": "State",
+                                        "placeholder": "Enter your business state",
+                                        "errors": {
+                                            "invalid": "Enter valid state",
+                                            "required": "State is required",
+                                            "minLength": "State is too short",
+                                            "maxLength": "State is too long - should be at most 100 characters",
+                                            "regex": "State must contain at least one letter"
+                                        }
+                                    },
+                                    "zipcode": {
+                                        "label": "Zip Code",
+                                        "placeholder": "Enter your business zip code",
+                                        "errors": {
+                                            "invalid": "Enter valid zip code",
+                                            "required": "Zip code is required",
+                                            "regex": "Zip code must be a number"
+                                        }
+                                    },
+                                    "locationConfig": {
+                                        "label": "Latitude and Longitude",
+                                        "errors": { "required": "Please select location" }
+                                    }
+                                },
+                                "button": {
+                                    "updating": "Updating...",
+                                    "update": "Update",
+                                    "cancel": "Cancel"
+                                }
+                            }
+                        },
+                        "restaurantTiming": {
+                            "label": "Restaurant Timing",
+                            "list": {
+                                "heading": {
+                                    "day": "Day",
+                                    "openAt": "Open At",
+                                    "closeAt": "Close At",
+                                    "action": "Action"
+                                },
+                                "fields": {
+                                    "openAt": {
+                                        "label": "Open At"
+                                    },
+                                    "closeAt": {
+                                        "label": "Close At"
+                                    }
+                                },
+                                "button": {
+                                    "update": "Update"
+                                }
+                            }
+                        },
+                        "manager": {
+                            "label": "Manager",
+                            "fields": {
+                                "search": {
+                                    "placeholder": "Search for existing account"
+                                },
+                                "button": {
+                                    "clear": "Clear"
+                                }
+                            },
+                            "list": {
+                                "emptyManager": "No Manager Found",
+                                "manager": {
+                                    "name": "User Name",
+                                    "email": "Email Address",
+                                    "phoneNumber": "Phone Number",
+                                    "button": {
+                                        "set": "Set",
+                                        "remove": "Remove"
+                                    },
+                                    "form": {
+                                        "fields": {
+                                            "email": {
+                                                "label": "Email Address",
+                                                "placeholder": "Enter your email address",
+                                                "errors": {
+                                                    "required": "Email address is required",
+                                                    "invalid": "Enter valid email address"
+                                                }
+                                            },
+                                            "mobile_number": {
+                                                "label": "Phone Number",
+                                                "placeholder": "Enter your phone number",
+                                                "errors": {
+                                                    "required": "Phone number is required",
+                                                    "invalid": "Enter valid phone number"
+                                                }
+                                            },
+                                            "username": {
+                                                "label": "User name",
+                                                "placeholder": "Enter your username",
+                                                "errors": {
+                                                    "required": "Phone number is required",
+                                                    "invalid": "Username is required",
+                                                    "minLength": "Username is too short",
+                                                    "maxLength": "Username is too long - should be at most 16 characters",
+                                                    "regex": "Username must contain at least one letter"
+                                                }
+                                            }
+                                        },
+                                        "button": {
+                                            "adding": "Adding..",
+                                            "add": "Add",
+                                            "reset": "Reset"
+                                        }
+                                    }
+                                }
+                            },
+                            "confirmation": {
+                                "title": "Delete Confirmation",
+                                "description": "Are you sure you want to delete this manager?"
+                            }
+                        },
+                        "cuisines": {
+                            "label": "Cuisines",
+                            "form": {
+                                "title": "Select Cuisine",
+                                "fields": {
+                                    "cuisine": {
+                                        "select": "Select Cuisine",
+                                        "label": "Cuisines",
+                                        "errors": {
+                                            "required": "Cuisine is required"
+                                        }
+                                    }
+                                },
+                                "button": {
+                                    "add": "+ Add"
+                                }
+                            },
+                            "list": {
+                                "heading": {
+                                    "amenities": "List of Cuisine",
+                                    "action": "Action"
+                                },
+                                "button": {
+                                    "remove": "Remove"
+                                },
+                                "emptyAmenities": "Cuisines Not Found",
+                                "confirmation": {
+                                    "title": "Delete Confirmation",
+                                    "description": "Are you sure you want to delete this cuisine?"
+                                }
+                            }
+                        },
+                        "paymentModes": {
+                            "label": "Payment Modes",
+                            "form": {
+                                "title": "Select Payment Method",
+                                "fields": {
+                                    "payment": {
+                                        "select": "Select Payment method",
+                                        "label": "Payment method",
+                                        "errors": {
+                                            "required": "Payment method is required"
+                                        }
+                                    }
+                                },
+                                "button": {
+                                    "add": "+ Add"
+                                }
+                            },
+                            "list": {
+                                "heading": {
+                                    "amenities": "List of Payment methods",
+                                    "action": "Action"
+                                },
+                                "button": {
+                                    "remove": "Remove"
+                                },
+                                "emptyAmenities": "Payment methods Not Found",
+                                "confirmation": {
+                                    "title": "Delete Confirmation",
+                                    "description": "Are you sure you want to delete this Payment method?"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "advertisement": {
+                "heading": "Advertisement",
+                "form": {
+                    "fields": {
+                        "description": {
+                            "label": "Description",
+                            "errors": {
+                                "required": "Advertisement description is required",
+                                "invalid": "Enter valid advertisement description",
+                                "minLength": "Advertisement description is too short - should be at least 5 characters",
+                                "maxLength": "Advertisement description is too long - should be at most 10000 characters",
+                                "regex": "Advertisement description must contain at least one letter"
+                            }
+                        },
+                        "cover_image": {
+                            "label": "Upload Cover Image",
+                            "errors": {
+                                "test_isExist": "Please select a cover image",
+                                "test_fileSize": "Cover image size is too large",
+                                "test_fileType": "Invalid cover image"
+                            }
+                        }
+                    },
+                    "button": {
+                        "submit": "Submit",
+                        "submitting": "Submitting...",
+                        "cancel": "Cancel"
+                    }
+                }
+            }
+        }
+    },
+    "constants": {
+        "keywords": {
+            "alerts": {
+                "auth": {
+                    "login": {
+                        "success": "Login Successfully"
+                    },
+                    "logout": {
+                        "success": "Logout Successfully"
+                    },
+                    "register": {
+                        "success": "Hurray! You are registered successfully"
+                    },
+                    "password": {
+                        "change": "Password changed successfully",
+                        "reset": "Password reset successfully"
+                    },
+                    "otp": {
+                        "sent": "OTP Sent Successfully",
+                        "verify": "OTP verified Successfully",
+                        "code": "Code has been sent successfully to your email address"
+                    },
+                    "profile": {
+                        "user": {
+                            "update": "User profile updated successfully"
+                        },
+                        "business": {
+                            "update": "Business address updated successfully",
+                            "status": "Business status updated successfully"
+                        }
+                    }
+                },
+                "business": {
+                    "create": "Business submitted successfully. Our team will review it and approve it.",
+                    "image": {
+                        "upload": "Business image has been uploaded successfully",
+                        "delete": "Business image has been deleted successfully"
+                    }
+                },
+                "category": {
+                    "add": "Category has been added to your business successfully"
+                },
+                "claim": {
+                    "submit": "Your claim has been submitted successfully"
+                },
+                "notification": {
+                    "read": "Notification has been marked as read"
+                },
+                "menu": {
+                    "create": "Business menu has been created successfully",
+                    "delete": "Business menu has been deleted successfully",
+                    "update": "Business menu has been updated successfully",
+                    "upload": "Business menu uploading process has been started successfully"
+                },
+                "qa": {
+                    "delete": "QA list has been deleted successfully",
+                    "update": "QA is been added"
+                },
+                "query": {
+                    "add": "Query replay has been sent successfully",
+                    "update": "Query replay has been updated successfully"
+                },
+                "manager": {
+                    "add": "Manager has been added successfully",
+                    "update": "Manager has been updated successfully",
+                    "delete": "Manager has been removed successfully"
+                },
+                "errors": {
+                    "general": "Oops! Something went wrong"
+                },
+                "service": {
+                    "delete": "Restaurant service has been deleted successfully",
+                    "add": "Restaurant service has been created successfully"
+                },
+                "timing": {
+                    "update": "Business timing has been updated successfully"
+                },
+                "reviewReport": {
+                    "report": "Your review reported successfully",
+                    "replay": "Review replayed successfully"
+                },
+                "cuisine": {
+                    "create": "Cuisine has been added successfully",
+                    "delete": "Cuisine has been removed successfully"
+                },
+                "paymentMethod": {
+                    "create": "Payment Method has been added successfully",
+                    "delete": "Payment Method has been removed successfully"
+                },
+                "promotion": {
+                    "create": "Promotion has been created successfully",
+                    "update": "Promotion has been updated successfully",
+                    "remove": " Promotion has been removed successfully"
+                }
+            },
+            "roles": {
+                "owner": "Business Owner",
+                "visitor": "Visitor",
+                "manager": "Business Manager",
+                "admin": "Super Admin"
+            },
+            "businessStatus": {
+                "notCreated": "Not Created",
+                "underReview": "Under review",
+                "approved": "Approved"
+            },
+            "providers": {
+                "phone": "Phone Number",
+                "email": "Email Address"
+            },
+            "businessType": {
+                "cafe": "Cafe",
+                "restaurant": "Restaurant"
+            }
+        }
+    }
+}
